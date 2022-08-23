@@ -5,7 +5,7 @@ execute store result score ps CurrentParticle run data get storage ps list[0].pa
 execute if score ps InsertNo > ps CurrentParticle run data modify storage ps list[0].particle append from storage ps list[0].particle[0]
 execute if score ps InsertNo > ps CurrentParticle run data remove storage ps list[0].particle[0]
 
-execute if score ps InsertNo = ps CurrentParticle unless data storage ps list[0].particle[2] run say error
+#execute if score ps InsertNo = ps CurrentParticle unless data storage ps list[0].particle[2] run say error
 execute if score ps InsertNo = ps CurrentParticle if data storage ps list[0].particle[2] run data remove storage ps list[0].particle[0]
 
 execute if score ps InsertNo < ps CurrentParticle run data modify storage ps list[0].particle prepend value 0
