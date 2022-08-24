@@ -7,5 +7,5 @@ execute if score ps CurrentParticle = ps InsertNo unless data storage ps list[0]
 execute if score ps CurrentParticle = ps InsertNo unless data storage ps list[0].particle[1] if score ps InsertNo = ps check_list1 run data modify storage ps EditList[0].switch set value '[{"text":"[-] ","color":"red"}]'
 execute unless score ps CurrentParticle = ps InsertNo run function particle:setting/page/set_command_p
 scoreboard players remove @s ps_page 1
-execute if score @s ps_page matches 0 run scoreboard players set @s ps_page 6
+execute if score @s ps_page matches 0 store result score @s ps_page run scoreboard players get ps ps_page_max
 function particle:setting/page/next

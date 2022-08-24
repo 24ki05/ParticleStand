@@ -2,7 +2,7 @@ execute unless data storage ps ex_message run playsound ui.button.click player @
 execute if data storage ps ex_message run playsound block.note_block.bass player @s ~ ~ ~ 1 1 0
 execute if data storage ps ex_message run data remove storage ps ex_message
 
-tellraw @s [{"text":"Particle Stand ver1.18.2","color": "aqua"}]
+tellraw @s [{"text":"Particle Stand ver1.19.2","color": "aqua"}]
 tellraw @s [{"text":"-----------------------------------------------------","color":"aqua"}]
 tellraw @s [{"text":"== Setting =="}]
 tellraw @s [{"text":"・Display Particle [ "},{"nbt":"switch","storage":"ps","interpret": true,"clickEvent": {"action": "run_command","value": "/function particle:setting/particle_off"}}, {"text":" ]"}]

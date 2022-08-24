@@ -6,7 +6,7 @@ data modify storage ps EditNow set from storage ps list[0].Name
 data modify storage ps EditList set value [{switch:'',No:0,Name:""},{switch:'',No:0,Name:""},{switch:'',No:0,Name:""},{switch:'',No:0,Name:""},{switch:'',No:0,Name:""},{switch:'',No:0,Name:""},{switch:'',No:0,Name:""},{switch:'',No:0,Name:""},{switch:'',No:0,Name:""},{switch:'',No:0,Name:""},{switch:'',No:0,Name:""},{switch:'',No:0,Name:""},{switch:'',No:0,Name:""},{switch:'',No:0,Name:""},{switch:'',No:0,Name:""}]
 
 scoreboard players add @s ps_page 1
-execute if score @s ps_page matches 7 run scoreboard players set @s ps_page 1
+execute if score @s ps_page > ps ps_page_max run scoreboard players set @s ps_page 1
 execute store result storage ps page int 1 run scoreboard players get @s ps_page
 
 scoreboard players remove @s ps_page 1

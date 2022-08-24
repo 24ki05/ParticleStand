@@ -67,22 +67,27 @@ execute if score @s particleNo matches 66 run particle portal ~ ~ ~ 0.1 0.1 0.1 
 execute if score @s particleNo matches 67 run particle rain ~ ~ ~ 0.1 0.1 0.1 0.1 1
 execute if score @s particleNo matches 68 run particle reverse_portal ~ ~ ~ 0.1 0.1 0.1 0.1 1
 execute if score @s particleNo matches 69 run particle scrape ~ ~ ~ 0.1 0.1 0.1 0.1 1
-execute if score @s particleNo matches 70 run particle small_flame ~ ~ ~ 0.1 0.1 0.1 0.1 1
-execute if score @s particleNo matches 71 run particle smoke ~ ~ ~ 0.1 0.1 0.1 0.1 1
-execute if score @s particleNo matches 72 run particle sneeze ~ ~ ~ 0.1 0.1 0.1 0.1 1
-execute if score @s particleNo matches 73 run particle snowflake ~ ~ ~ 0.1 0.1 0.1 0.1 1
-execute if score @s particleNo matches 74 run particle soul ~ ~ ~ 0.1 0.1 0.1 0.1 1
-execute if score @s particleNo matches 75 run particle soul_fire_flame ~ ~ ~ 0.1 0.1 0.1 0.1 1
-execute if score @s particleNo matches 76 run particle spit ~ ~ ~ 0.1 0.1 0.1 0.1 1
-execute if score @s particleNo matches 77 run particle splash ~ ~ ~ 0.1 0.1 0.1 0.1 1
-execute if score @s particleNo matches 78 run particle spore_blossom_air ~ ~ ~ 0.1 0.1 0.1 0.1 1
-execute if score @s particleNo matches 79 run particle squid_ink ~ ~ ~ 0.1 0.1 0.1 0.1 1
-execute if score @s particleNo matches 80 run particle sweep_attack ~ ~ ~ 0.1 0.1 0.1 0.1 1
-execute if score @s particleNo matches 81 run particle totem_of_undying ~ ~ ~ 0.1 0.1 0.1 0.1 1
-execute if score @s particleNo matches 82 run particle underwater ~ ~ ~ 0.1 0.1 0.1 0.1 1
-#execute if score @s particleNo matches 83 run particle vibration 0 0 0 0 5 0 1 ~ ~ ~ 0 0 0 1 1 
-execute if score @s particleNo matches 84 run particle warped_spore ~ ~ ~ 0.1 0.1 0.1 0.1 1
-execute if score @s particleNo matches 85 run particle wax_off ~ ~ ~ 0.1 0.1 0.1 0.1 1
-execute if score @s particleNo matches 86 run particle wax_on ~ ~ ~ 0.1 0.1 0.1 0.1 1
-execute if score @s particleNo matches 87 run particle white_ash ~ ~ ~ 0.1 0.1 0.1 0.1 1
-execute if score @s particleNo matches 88 run particle witch ~ ~ ~ 0.1 0.1 0.1 0.1 1
+execute if score @s particleNo matches 70 run particle sculk_charge 0 ~ ~ ~ 0.1 0.1 0.1 0.1 1
+execute if score @s particleNo matches 71 run particle sculk_charge_pop ~ ~ ~ 0.1 0.1 0.1 0.1 1
+execute if score @s particleNo matches 72 run particle sculk_soul ~ ~ ~ 0.1 0.1 0.1 0.1 1
+execute if score @s particleNo matches 73 run particle shriek 0 ~ ~ ~ 0.1 0.1 0.1 0.1 1
+execute if score @s particleNo matches 74 run particle small_flame ~ ~ ~ 0.1 0.1 0.1 0.1 1
+execute if score @s particleNo matches 75 run particle smoke ~ ~ ~ 0.1 0.1 0.1 0.1 1
+execute if score @s particleNo matches 76 run particle sneeze ~ ~ ~ 0.1 0.1 0.1 0.1 1
+execute if score @s particleNo matches 77 run particle snowflake ~ ~ ~ 0.1 0.1 0.1 0.1 1
+execute if score @s particleNo matches 78 if score ps ParticleTime matches 1 run particle sonic_boom ~ ~ ~ 0.1 0.1 0.1 0.1 1
+execute if score @s particleNo matches 79 run particle soul ~ ~ ~ 0.1 0.1 0.1 0.1 1
+execute if score @s particleNo matches 80 run particle soul_fire_flame ~ ~ ~ 0.1 0.1 0.1 0.1 1
+execute if score @s particleNo matches 81 run particle spit ~ ~ ~ 0.1 0.1 0.1 0.1 1
+execute if score @s particleNo matches 82 run particle splash ~ ~ ~ 0.1 0.1 0.1 0.1 1
+execute if score @s particleNo matches 83 run particle spore_blossom_air ~ ~ ~ 0.1 0.1 0.1 0.1 1
+execute if score @s particleNo matches 84 run particle squid_ink ~ ~ ~ 0.1 0.1 0.1 0.1 1
+execute if score @s particleNo matches 85 run particle sweep_attack ~ ~ ~ 0.1 0.1 0.1 0.1 1
+execute if score @s particleNo matches 86 run particle totem_of_undying ~ ~ ~ 0.1 0.1 0.1 0.1 1
+execute if score @s particleNo matches 87 run particle underwater ~ ~ ~ 0.1 0.1 0.1 0.1 1
+execute if score @s particleNo matches 88 if score ps ParticleTime matches 1 run particle vibration 0 0 0 200 ~ ~ ~ 0.1 0.1 0.1 1 1
+execute if score @s particleNo matches 89 run particle warped_spore ~ ~ ~ 0.1 0.1 0.1 0.1 1
+execute if score @s particleNo matches 90 run particle wax_off ~ ~ ~ 0.1 0.1 0.1 0.1 1
+execute if score @s particleNo matches 91 run particle wax_on ~ ~ ~ 0.1 0.1 0.1 0.1 1
+execute if score @s particleNo matches 92 run particle white_ash ~ ~ ~ 0.1 0.1 0.1 0.1 1
+execute if score @s particleNo matches 93 run particle witch ~ ~ ~ 0.1 0.1 0.1 0.1 1

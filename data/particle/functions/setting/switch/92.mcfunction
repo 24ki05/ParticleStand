@@ -1,5 +1,5 @@
 function particle:set_group
-scoreboard players set ps InsertNo 25
+scoreboard players set ps InsertNo 92
 function particle:switch_particle
 execute store result score ps check_list1 run data get storage ps list[0].particle[0]
 execute if score ps CurrentParticle = ps InsertNo if data storage ps list[0].particle[1] run function particle:setting/page/set_command_m

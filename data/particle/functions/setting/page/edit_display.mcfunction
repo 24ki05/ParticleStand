@@ -2,7 +2,7 @@ playsound ui.button.click player @s ~ ~ ~ 1 1 0
 execute store result score @s particleGroup run data get storage ps list[0].Group
 execute store result score @s ps_page run data get storage ps page 
 #v
-tellraw @s [{"text":"Particle Stand ver1.18.2","color": "aqua"}]
+tellraw @s [{"text":"Particle Stand ver1.19.2","color": "aqua"}]
 tellraw @s [{"text":"-----------------------------------------------------","color":"aqua"}]
 tellraw @s [{"text":"== Particle List =="}]
 tellraw @s [{"text":"| "},{"nbt":"EditNow","storage":"ps"},{"text":" | "},{"text":" [ Edit ] ","color":"green","clickEvent": {"action":"run_command","value": "/function particle:name_suggest"}},{"text":"[ Delete ] ","color":"red","clickEvent": {"action":"run_command","value":"/function particle:delete_caution"}},{"text":"[ Main Menu ]","color":"aqua","clickEvent": {"action":"run_command","value":"/function particle:setting/menu_open"}}]

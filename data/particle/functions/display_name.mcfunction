@@ -67,24 +67,39 @@ execute if score @s particleNo matches 66 run data modify storage ps name_p set 
 execute if score @s particleNo matches 67 run data modify storage ps name_p set value '[{"text":"rain","clickEvent":{"action":"suggest_command","value":"/particle rain ~ ~ ~ 0.1 0.1 0.1 0.1 1"}}]'
 execute if score @s particleNo matches 68 run data modify storage ps name_p set value '[{"text":"reverse_portal","clickEvent":{"action":"suggest_command","value":"/particle reverse_portal ~ ~ ~ 0.1 0.1 0.1 0.1 1"}}]'
 execute if score @s particleNo matches 69 run data modify storage ps name_p set value '[{"text":"scrape","clickEvent":{"action":"suggest_command","value":"/particle scrape ~ ~ ~ 0.1 0.1 0.1 0.1 1"}}]'
-execute if score @s particleNo matches 70 run data modify storage ps name_p set value '[{"text":"small_flame","clickEvent":{"action":"suggest_command","value":"/particle small_flame ~ ~ ~ 0.1 0.1 0.1 0.1 1"}}]'
-execute if score @s particleNo matches 71 run data modify storage ps name_p set value '[{"text":"smoke","clickEvent":{"action":"suggest_command","value":"/particle smoke ~ ~ ~ 0.1 0.1 0.1 0.1 1"}}]'
-execute if score @s particleNo matches 72 run data modify storage ps name_p set value '[{"text":"sneeze","clickEvent":{"action":"suggest_command","value":"/particle sneeze ~ ~ ~ 0.1 0.1 0.1 0.1 1"}}]'
-execute if score @s particleNo matches 73 run data modify storage ps name_p set value '[{"text":"snowflake","clickEvent":{"action":"suggest_command","value":"/particle snowflake ~ ~ ~ 0.1 0.1 0.1 0.1 1"}}]'
-execute if score @s particleNo matches 74 run data modify storage ps name_p set value '[{"text":"soul","clickEvent":{"action":"suggest_command","value":"/particle soul ~ ~ ~ 0.1 0.1 0.1 0.1 1"}}]'
-execute if score @s particleNo matches 75 run data modify storage ps name_p set value '[{"text":"soul_fire_flame","clickEvent":{"action":"suggest_command","value":"/particle soul_fire_flame ~ ~ ~ 0.1 0.1 0.1 0.1 1"}}]'
-execute if score @s particleNo matches 76 run data modify storage ps name_p set value '[{"text":"spit","clickEvent":{"action":"suggest_command","value":"/particle spit ~ ~ ~ 0.1 0.1 0.1 0.1 1"}}]'
-execute if score @s particleNo matches 77 run data modify storage ps name_p set value '[{"text":"splash","clickEvent":{"action":"suggest_command","value":"/particle splash ~ ~ ~ 0.1 0.1 0.1 0.1 1"}}]'
-execute if score @s particleNo matches 78 run data modify storage ps name_p set value '[{"text":"spore_blossom_air","clickEvent":{"action":"suggest_command","value":"/particle spore_blossom_air ~ ~ ~ 0.1 0.1 0.1 0.1 1"}}]'
-execute if score @s particleNo matches 79 run data modify storage ps name_p set value '[{"text":"squid_ink","clickEvent":{"action":"suggest_command","value":"/particle squid_ink ~ ~ ~ 0.1 0.1 0.1 0.1 1"}}]'
-execute if score @s particleNo matches 80 run data modify storage ps name_p set value '[{"text":"sweep_attack","clickEvent":{"action":"suggest_command","value":"/particle sweep_attack ~ ~ ~ 0.1 0.1 0.1 0.1 1"}}]'
-execute if score @s particleNo matches 81 run data modify storage ps name_p set value '[{"text":"totem_of_undying","clickEvent":{"action":"suggest_command","value":"/particle totem_of_undying ~ ~ ~ 0.1 0.1 0.1 0.1 1"}}]'
-execute if score @s particleNo matches 82 run data modify storage ps name_p set value '[{"text":"underwater","clickEvent":{"action":"suggest_command","value":"/particle underwater ~ ~ ~ 0.1 0.1 0.1 0.1 1"}}]'
-execute if score @s particleNo matches 83 run data modify storage ps name_p set value '[{"text":"vibration ([!] Unsupported)","clickEvent":{"action":"suggest_command","value":"/particle vibration 0 0 0 0 5 0 50 ~ ~ ~ 0 0 0 0 0"}}]'
-execute if score @s particleNo matches 84 run data modify storage ps name_p set value '[{"text":"warped_spore","clickEvent":{"action":"suggest_command","value":"/particle warped_spore ~ ~ ~ 0.1 0.1 0.1 0.1 1"}}]'
-execute if score @s particleNo matches 85 run data modify storage ps name_p set value '[{"text":"wax_off","clickEvent":{"action":"suggest_command","value":"/particle wax_off ~ ~ ~ 0.1 0.1 0.1 0.1 1"}}]'
-execute if score @s particleNo matches 86 run data modify storage ps name_p set value '[{"text":"wax_on","clickEvent":{"action":"suggest_command","value":"/particle wax_on ~ ~ ~ 0.1 0.1 0.1 0.1 1"}}]'
-execute if score @s particleNo matches 87 run data modify storage ps name_p set value '[{"text":"white_ash","clickEvent":{"action":"suggest_command","value":"/particle white_ash ~ ~ ~ 0.1 0.1 0.1 0.1 1"}}]'
-execute if score @s particleNo matches 88 run data modify storage ps name_p set value '[{"text":"witch","clickEvent":{"action":"suggest_command","value":"/particle witch ~ ~ ~ 0.1 0.1 0.1 0.1 1"}}]'
-execute if score @s particleNo matches 89 run data modify storage ps name_p set value ""
-execute if score @s particleNo matches 90 run data modify storage ps name_p set value ""
+execute if score @s particleNo matches 70 run data modify storage ps name_p set value '[{"text":"sculk_charge","clickEvent":{"action":"suggest_command","value":"/particle sculk_charge 0 ~ ~ ~ 0.1 0.1 0.1 0.1 1"}}]'
+execute if score @s particleNo matches 71 run data modify storage ps name_p set value '[{"text":"sculk_charge_pop","clickEvent":{"action":"suggest_command","value":"/particle sculk_charge_pop ~ ~ ~ 0.1 0.1 0.1 0.1 1"}}]'
+execute if score @s particleNo matches 72 run data modify storage ps name_p set value '[{"text":"sculk_soul","clickEvent":{"action":"suggest_command","value":"/particle sculk_soul ~ ~ ~ 0.1 0.1 0.1 0.1 1"}}]'
+execute if score @s particleNo matches 73 run data modify storage ps name_p set value '[{"text":"shriek","clickEvent":{"action":"suggest_command","value":"/particle shriek 0 ~ ~ ~ 0.1 0.1 0.1 0.1 1"}}]'
+execute if score @s particleNo matches 74 run data modify storage ps name_p set value '[{"text":"small_flame","clickEvent":{"action":"suggest_command","value":"/particle small_flame ~ ~ ~ 0.1 0.1 0.1 0.1 1"}}]'
+execute if score @s particleNo matches 75 run data modify storage ps name_p set value '[{"text":"smoke","clickEvent":{"action":"suggest_command","value":"/particle smoke ~ ~ ~ 0.1 0.1 0.1 0.1 1"}}]'
+execute if score @s particleNo matches 76 run data modify storage ps name_p set value '[{"text":"sneeze","clickEvent":{"action":"suggest_command","value":"/particle sneeze ~ ~ ~ 0.1 0.1 0.1 0.1 1"}}]'
+execute if score @s particleNo matches 77 run data modify storage ps name_p set value '[{"text":"snowflake","clickEvent":{"action":"suggest_command","value":"/particle snowflake ~ ~ ~ 0.1 0.1 0.1 0.1 1"}}]'
+execute if score @s particleNo matches 78 run data modify storage ps name_p set value '[{"text":"sonic_boom","clickEvent":{"action":"suggest_command","value":"/particle sonic_boom ~ ~ ~ 0.1 0.1 0.1 0.1 1"}}]'
+execute if score @s particleNo matches 79 run data modify storage ps name_p set value '[{"text":"soul","clickEvent":{"action":"suggest_command","value":"/particle soul ~ ~ ~ 0.1 0.1 0.1 0.1 1"}}]'
+execute if score @s particleNo matches 80 run data modify storage ps name_p set value '[{"text":"soul_fire_flame","clickEvent":{"action":"suggest_command","value":"/particle soul_fire_flame ~ ~ ~ 0.1 0.1 0.1 0.1 1"}}]'
+execute if score @s particleNo matches 81 run data modify storage ps name_p set value '[{"text":"spit","clickEvent":{"action":"suggest_command","value":"/particle spit ~ ~ ~ 0.1 0.1 0.1 0.1 1"}}]'
+execute if score @s particleNo matches 82 run data modify storage ps name_p set value '[{"text":"splash","clickEvent":{"action":"suggest_command","value":"/particle splash ~ ~ ~ 0.1 0.1 0.1 0.1 1"}}]'
+execute if score @s particleNo matches 83 run data modify storage ps name_p set value '[{"text":"spore_blossom_air","clickEvent":{"action":"suggest_command","value":"/particle spore_blossom_air ~ ~ ~ 0.1 0.1 0.1 0.1 1"}}]'
+execute if score @s particleNo matches 84 run data modify storage ps name_p set value '[{"text":"squid_ink","clickEvent":{"action":"suggest_command","value":"/particle squid_ink ~ ~ ~ 0.1 0.1 0.1 0.1 1"}}]'
+execute if score @s particleNo matches 85 run data modify storage ps name_p set value '[{"text":"sweep_attack","clickEvent":{"action":"suggest_command","value":"/particle sweep_attack ~ ~ ~ 0.1 0.1 0.1 0.1 1"}}]'
+execute if score @s particleNo matches 86 run data modify storage ps name_p set value '[{"text":"totem_of_undying","clickEvent":{"action":"suggest_command","value":"/particle totem_of_undying ~ ~ ~ 0.1 0.1 0.1 0.1 1"}}]'
+execute if score @s particleNo matches 87 run data modify storage ps name_p set value '[{"text":"underwater","clickEvent":{"action":"suggest_command","value":"/particle underwater ~ ~ ~ 0.1 0.1 0.1 0.1 1"}}]'
+execute if score @s particleNo matches 88 run data modify storage ps name_p set value '[{"text":"vibration","clickEvent":{"action":"suggest_command","value":"/particle vibration 0 0 0 200 ~ ~ ~ 0.1 0.1 0.1 1 1"}}]'
+execute if score @s particleNo matches 89 run data modify storage ps name_p set value '[{"text":"warped_spore","clickEvent":{"action":"suggest_command","value":"/particle warped_spore ~ ~ ~ 0.1 0.1 0.1 0.1 1"}}]'
+execute if score @s particleNo matches 90 run data modify storage ps name_p set value '[{"text":"wax_off","clickEvent":{"action":"suggest_command","value":"/particle wax_off ~ ~ ~ 0.1 0.1 0.1 0.1 1"}}]'
+execute if score @s particleNo matches 91 run data modify storage ps name_p set value '[{"text":"wax_on","clickEvent":{"action":"suggest_command","value":"/particle wax_on ~ ~ ~ 0.1 0.1 0.1 0.1 1"}}]'
+execute if score @s particleNo matches 92 run data modify storage ps name_p set value '[{"text":"white_ash","clickEvent":{"action":"suggest_command","value":"/particle white_ash ~ ~ ~ 0.1 0.1 0.1 0.1 1"}}]'
+execute if score @s particleNo matches 93 run data modify storage ps name_p set value '[{"text":"witch","clickEvent":{"action":"suggest_command","value":"/particle witch ~ ~ ~ 0.1 0.1 0.1 0.1 1"}}]'
+execute if score @s particleNo matches 94 run data modify storage ps name_p set value ""
+execute if score @s particleNo matches 95 run data modify storage ps name_p set value ""
+execute if score @s particleNo matches 96 run data modify storage ps name_p set value ""
+execute if score @s particleNo matches 97 run data modify storage ps name_p set value ""
+execute if score @s particleNo matches 98 run data modify storage ps name_p set value ""
+execute if score @s particleNo matches 99 run data modify storage ps name_p set value ""
+execute if score @s particleNo matches 100 run data modify storage ps name_p set value ""
+execute if score @s particleNo matches 101 run data modify storage ps name_p set value ""
+execute if score @s particleNo matches 102 run data modify storage ps name_p set value ""
+execute if score @s particleNo matches 103 run data modify storage ps name_p set value ""
+execute if score @s particleNo matches 104 run data modify storage ps name_p set value ""
+execute if score @s particleNo matches 105 run data modify storage ps name_p set value ""
